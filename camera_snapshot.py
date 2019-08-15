@@ -11,6 +11,7 @@ def start():
     while True:
         ret, frame = cam.read()
         cv2.imshow("test", frame)
+
         if not ret:
             break
         k = cv2.waitKey(1)
@@ -34,4 +35,4 @@ if '__main__' == __name__:
     print('enter "SPACE" to save a snapshot')
     print('enter "ESC" to quit')
     start()
-    print('quited!)
+    print('quit!')
