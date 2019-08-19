@@ -6,8 +6,9 @@ import cv2
 
 def start():
     #img = cv2.imread('tag-standard-41h12.png', cv2.IMREAD_GRAYSCALE)
+    img_dir = input('input image dir: ')
     img_name = input('input the image name: ')
-    img = cv2.imread(img_name, cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread(img_dir + '/' + img_name, cv2.IMREAD_GRAYSCALE)
     options = apriltag.DetectorOptions(families='tagstandard41h12',
                 border=1,
                 nthreads=4,
@@ -23,6 +24,9 @@ def start():
     results = detector.detect(img)
 
     print(results)
+    if len(results) > 0:
+        print(results[0].tag_family)
+        print(results[0].center)
     print('number of detections: ', len(results))
 
 if '__main__' == __name__:
