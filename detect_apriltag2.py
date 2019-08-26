@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
+# 这个 apriltag 是第二版，项目来自https://pypi.org/project/apriltag/
+# 源码在这里，https://github.com/swatbotics/apriltag，并不是 Michagen 大学
+# AprilRobotics 做的，是一个私人的 仓库
 import apriltag
 import cv2
 
