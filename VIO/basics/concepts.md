@@ -1,6 +1,6 @@
 ## 基本概念
 1. rigid body，翻译成刚体  
 2. 向量的外积  
-![](img/wj.png)  
+![](../img/wj.png)  
 3. [ 欧拉角是什么，之后为什么要引入四元数？](https://www.zhihu.com/question/47736315)  
     * 这篇文章把万象锁也说清楚了
