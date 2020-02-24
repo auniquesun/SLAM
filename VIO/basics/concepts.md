@@ -9,3 +9,9 @@
     2. 存在一个元运算，任何四元数进行元运算的结果就是其本身
     3. 对于任何一个四元数，都存在一个四元数，这两个运算的积是元运算
     4. 运算满足结合律
+5. 特殊正交群 special orthogonal —— SO(3)，
+6. 特殊欧式群 special euclidean —— SE(3)
+7. 旋转轴，旋转向量，旋转矩阵(内容来源，[中文维基百科](https://zh.wikipedia.org/wiki/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5))
+![](../img/x1.png) 
+![](../img/x2.png) 
+![](../img/x3.png) 
